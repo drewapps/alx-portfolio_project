@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_dashboard"
+        android:icon="@drawable/ic_home"
+        android:title="Dashboard" />
+    <item android:id="@+id/menu_templates"
+        android:icon="@drawable/ic_template"
+        android:title="Template" />
+    <item android:id="@+id/menu_chat"
+        android:title="AI Chat" />
+    <item android:id="@+id/menu_magic"
+        android:icon="@drawable/ic_magic"
+        android:title="Magic Art" />
+    <item android:id="@+id/menu_document"
+        android:icon="@drawable/ic_document"
+        android:title="Document" />
+
+
+</menu>

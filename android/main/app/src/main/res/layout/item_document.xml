@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="document"
+            type="com.drewapps.ai.items.Document" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/bg_template"
+        android:elevation="@dimen/_2sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_template_icon"
+            imageSVGURL="@{document.templateImage}"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/bg_withe_round"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/ic_image_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_template_icon"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    font='@{"extra_bold"}'
+                    textSize='@{"font_body_size"}'
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:maxLines="2"
+                    android:text="@{document.documentName}"
+                    android:textColor="@color/white" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_category"
+                        font='@{"normal"}'
+                        textSize='@{"font_body_xxs_size"}'
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{document.templateName}"
+                        android:textColor="@color/colorSecondary" />
+
+                    <View
+                        android:layout_width="@dimen/_1sdp"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:background="@drawable/bg_gradient" />
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        font='@{"normal"}'
+                        textSize='@{"font_body_xxs_size"}'
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15 March 2023"
+                        android:textColor="@color/grey_40" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/lv_more"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:src="@drawable/ic_menu_hr"
+                android:orientation="horizontal"
+                app:tint="@color/grey_60">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

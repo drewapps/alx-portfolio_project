@@ -1,0 +1,16 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        maven { url 'https://artifacts.applovin.com/android' }
+    }
+    dependencies {
+        // Add this line
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath "com.applovin.quality:AppLovinQualityServiceGradlePlugin:+"
+        // Some other needed classpath
+    }
+}
+plugins {
+    id 'com.android.application' version '7.4.1' apply false
+    id 'com.android.library' version '7.4.1' apply false
+}

@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "102696850010",
+    "project_id": "chop---ai-assistant",
+    "storage_bucket": "chop---ai-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102696850010:android:35c9006183a19e2f1a7e63",
+        "android_client_info": {
+          "package_name": "com.aismartaibot.aiassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102696850010-j4fmcjbm46hhr0sn06o99ijmarjj9q1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aismartaibot.aiassistant",
+            "certificate_hash": "ab2cd350e610901ff69e7778f8a726dfba01e5aa"
+          }
+        },
+        {
+          "client_id": "102696850010-qp8nkhd3elrg0pf8glrgvr5uvktk0pm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aismartaibot.aiassistant",
+            "certificate_hash": "7466158f454d503fdf8440cc60f5ad156d009336"
+          }
+        },
+        {
+          "client_id": "102696850010-v3keug72spbsa7gugghs0kfinqtm1gvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL5wDMyQSQFjub-XXXDI4gFn1oFeYEW1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102696850010-dem5lcb50bvm20inkbl613j1v94qt69h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102696850010:android:ff194331572871911a7e63",
+        "android_client_info": {
+          "package_name": "com.drewapps.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102696850010-n7esh7a845hjs5806uv3cokt2v47ol70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drewapps.ai",
+            "certificate_hash": "ab2cd350e610901ff69e7778f8a726dfba01e5aa"
+          }
+        },
+        {
+          "client_id": "102696850010-v3keug72spbsa7gugghs0kfinqtm1gvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL5wDMyQSQFjub-XXXDI4gFn1oFeYEW1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102696850010-dem5lcb50bvm20inkbl613j1v94qt69h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

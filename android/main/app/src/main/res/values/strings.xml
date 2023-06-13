@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VIP AI Assistant</string>
+
+    <!--TODO: ENTER YOUR ADMOB_APP_ID-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!--TODO: ENTER YOUR UNITY_APP_ID-->
+    <string name="unity_ads_app_id">4790230</string>
+
+    <!--TODO: ENTER YOUR APPLOVIN SDK KEY-->
+    <string name="applovin_sdk_key">L7wQxNZR0XUUlGQaaalQ6sB_XCafz5ahamTdGid88ftS_KSo6iy9bcrO_id4JTXfFPhhw2s5FKmMPvZxUOQ3CH</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share_with_your_friends_family"><![CDATA[Share with your friends & family]]></string>
+    <string name="share_msg">Best Content Writing Tool</string>
+
+</resources>

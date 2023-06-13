@@ -1,0 +1,131 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.drewapps.ai'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.drewapps.ai"
+        minSdk 24
+        targetSdk 33
+        versionCode 4
+        versionName "1.4"
+
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.ar.sceneform:sceneform-base:1.17.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //Glide Dependencies
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+
+    //Dimen
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    //Room Database
+    implementation "androidx.room:room-runtime:2.5.0"
+    annotationProcessor "androidx.room:room-compiler:2.5.0"
+
+    // Lifecycle Arch
+    implementation "androidx.lifecycle:lifecycle-runtime:2.5.1"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.5.1"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.5.1"
+
+    //Refresh Layout
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.6.2"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.10.0"
+
+    implementation 'com.github.onecode369:WYSIWYG:4.0'
+
+    implementation 'io.github.mddanishansari:html-to-pdf-convertor:1.1.0'
+
+    //ImageView
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    //Shimmer Effect
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //Animation
+    implementation 'com.airbnb.android:lottie:5.2.0'
+
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+
+    implementation 'com.google.guava:guava:31.1-android'
+
+    implementation 'com.android.billingclient:billing:5.2.0'
+
+    //Google Login
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+
+    implementation 'com.google.firebase:firebase-config:21.3.0'
+
+    //RazorPay
+    implementation 'com.razorpay:checkout:1.6.30'
+
+    //Stripe
+    implementation 'com.stripe:stripe-android:20.21.1'
+
+    //ADMOB ADS
+    implementation 'com.google.android.gms:play-services-ads:22.0.0'
+
+    implementation 'com.ironsource.adapters:admobadapter:4.3.31'
+    implementation 'com.ironsource.adapters:applovinadapter:4.3.34'
+
+    implementation 'com.ironsource.sdk:mediationsdk:7.3.0.1'
+
+    implementation 'com.applovin:applovin-sdk:11.9.0'
+    implementation 'com.google.ads.mediation:applovin:11.9.0.0'
+
+    implementation 'com.applovin.mediation:google-adapter:21.3.0.1'
+    implementation 'com.applovin.mediation:ironsource-adapter:7.2.5.0.0'
+
+    implementation 'com.applovin.mediation:unityads-adapter:4.4.1.0'
+
+    implementation 'com.unity3d.ads:unity-ads:4.4.1'
+    implementation 'com.google.ads.mediation:unity:4.6.1.0'
+    implementation 'com.google.ads.mediation:ironsource:7.3.0.0'
+
+}
+apply plugin: 'applovin-quality-service'
+applovin {
+    apiKey "f4ieBqMouihT6Z_vX_7Zy4xlFwguWfLDW5A26A3RshBBudBcIuJ0zCFMclFlJCS_9lvVEavlV5FQzx_AudJZN5"
+}

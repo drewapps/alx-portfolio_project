@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sc1"
+        android:title="General Inquiry" />
+    <item android:id="@+id/sc2"
+        android:title="Technical Issue" />
+    <item android:id="@+id/sc3"
+        android:title="Improvement Idea" />
+    <item android:id="@+id/sc4"
+        android:title="Feedback" />
+</menu>

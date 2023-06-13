@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:src="@drawable/bg_doc_created"
+        android:tint="@color/grey_60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatImageView6">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/bg_word_created"
+            android:backgroundTint="@color/grey_60">
+
+            <com.google.android.material.textview.MaterialTextView
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_s_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_8sdp"
+                android:text="All"
+                android:textColor="@color/transparent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/bg_word_created"
+            android:backgroundTint="@color/grey_60">
+
+            <com.google.android.material.textview.MaterialTextView
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_s_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_8sdp"
+                android:text="All ahkfhafkhk"
+                android:textColor="@color/transparent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/bg_word_created"
+            android:backgroundTint="@color/grey_60">
+
+            <com.google.android.material.textview.MaterialTextView
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_s_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_8sdp"
+                android:text="All kfjklajf"
+                android:textColor="@color/transparent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:background="@drawable/bg_word_created"
+            android:backgroundTint="@color/grey_60">
+
+            <com.google.android.material.textview.MaterialTextView
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_s_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_8sdp"
+                android:text="All sfa"
+                android:textColor="@color/transparent" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_60"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_cat_title"
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Favorite Templates"
+                android:textColor="@color/transparent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_fave_view_all"
+                font='@{"normal"}'
+                textSize='@{"font_body_xs_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View All"
+                android:textColor="@color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rv_template"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_4sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_60"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_cat_title"
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Favorite Templates"
+                android:textColor="@color/transparent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_fave_view_all"
+                font='@{"normal"}'
+                textSize='@{"font_body_xs_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View All"
+                android:textColor="@color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rv_template"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_4sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_60"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_cat_title"
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Favorite Templates"
+                android:textColor="@color/transparent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_fave_view_all"
+                font='@{"normal"}'
+                textSize='@{"font_body_xs_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View All"
+                android:textColor="@color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rv_template"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_4sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_60"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_cat_title"
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Favorite Templates"
+                android:textColor="@color/transparent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_fave_view_all"
+                font='@{"normal"}'
+                textSize='@{"font_body_xs_size"}'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View All"
+                android:textColor="@color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rv_template"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_4sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/bg_doc_created"
+                android:tint="@color/grey_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

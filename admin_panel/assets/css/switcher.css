@@ -1,0 +1,56 @@
+.ui-switcher {
+  background-color: #bdc1c2;
+  display: inline-block;
+  top: 7px;
+  height: 25px;
+  width: 70px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: border-color 0.25s;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.ui-switcher:before {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  height: 15px;
+  width: 27px;
+  text-align: center;
+}
+.ui-switcher[aria-checked=false]:before {
+  content: 'Free';
+  right: 10px;
+}
+.ui-switcher[aria-checked=true]:before {
+  content: 'Paid';
+  left: 10px;
+}
+.ui-switcher[aria-checked=true] {
+  background-color: #e91e63;
+}
+.ui-switcher:after {
+  background-color: #ffffff;
+  content: '\0020';
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  transition: left 0.25s;
+}
+.ui-switcher[aria-checked=false]:after {
+  left: 5px;
+}
+.ui-switcher[aria-checked=true]:after {
+  left: 45px;
+}

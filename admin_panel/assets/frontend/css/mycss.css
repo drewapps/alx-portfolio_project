@@ -1,0 +1,323 @@
+.jk-in-top2-maintext
+{
+    font-size: 70px;
+    text-align: center;
+}
+
+.jk-in-top2-text
+{
+    color: hsla(0,0%,100%,.7);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.jk-in-top2-button
+{
+    border-radius: 100px;
+    background-color: #406EDA;
+}
+
+.jk-in-top2-button:hover
+{
+    color:#ffffff;
+    background-color: #2E5ECE;
+}
+
+.jk-in-top2-animation
+{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg,#fb60d7,#eb69dc 15%,#dc5cff 30%,#c555fe 45%,#a02fff 60%,#7752ff 75%,#5f98fa 90%,#44beff);
+    line-height: 110px;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    height:100px;
+}
+
+
+.jk-in-top2-img1-text
+{
+    border-radius: 10px;
+    background-color: rgba(191,195,209,.15);
+    color: #d1d5db;
+    font-size: 15px;
+    text-align: center;
+    width: 100px;
+    padding:5px;
+}
+
+.jk-in-top2-img1
+{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+.jk-in-top2-img2
+{
+    position: absolute;
+    left: 150px;
+    top: 310px;
+}
+
+.jk-in-top2-img3
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.jk-in-top2-img4
+{
+    position: absolute;
+    right: 120px;
+    top: 190px;
+}
+
+.jumb-mid-text
+{
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(39%,#fff),to(#10cffc));
+    font-size: 4rem;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.how-scalenut
+{
+    color:#000000;
+    font-size: 50px;
+}
+
+.benefits-headline
+{
+    font-size: 21px;
+}
+
+.jk-footer
+{
+    margin-left:30px;
+}
+
+
+/* Start FAQ CSS */
+
+:root {
+    --accent-color: #10bce7;
+    /* --accent-color: #000000; */
+  }
+
+  .faq {
+      box-sizing: border-box;
+      background: transparent;
+      padding: 22px;
+      position: relative;
+      overflow: hidden;
+      background-color: white;
+      border-radius:10px;
+      margin-bottom:20px;
+  }
+
+  .faq:not(:first-child) {
+    border-top: 1px solid #e6e6e6;
+  }
+
+  .faq-title {
+    margin: 0 20px 0 0;
+  }
+
+  .faq-text {
+    margin: 30px 0 0;
+    display: none;
+    line-height: 1.5rem;
+  }
+
+  .faq.active {
+    background-color: #f8f8f8;
+    box-shadow: inset 4px 0px 0px 0px var(--accent-color);
+  }
+
+  .faq.active .faq-title {
+    /* color: var(--accent-color); */
+  }
+
+  .faq.active .faq-text {
+    display: block;
+  }
+
+  .faq-toggle {
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    color: inherit;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 3px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+    transition: 0.3s ease;
+  }
+
+  .faq-toggle:focus {
+    outline: none;
+  }
+
+  .faq.active .faq-toggle {
+    transform: rotate(180deg);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+  }
+
+/* End FAQ CSS */
+
+
+@media only screen and (max-width: 1200px)
+{
+    .jk-in-top2-image
+    {
+        display: none;
+    }
+    .jk-footer
+    {
+        margin-left:25px;
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .jk-in-top2-image{
+        display: none;
+    }
+    .jk-in-top2-maintext{
+        font-size: 45px;
+    }
+    .jk-in-top2-animation{
+        font-size: 50px;
+    }
+    .jk-in-top2-text{
+        font-size: 25px;
+    }
+    .jumb-mid-text
+    {
+        font-size: 3rem;
+    }
+    .how-scalenut
+    {
+        font-size: 40px;
+    }
+    .jk-footer
+    {
+        margin-left:20px;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+    .jk-in-top2-maintext{
+        font-size: 37px;
+    }
+    .jk-in-top2-animation{
+        font-size: 40px;
+    }
+    .jk-in-top2-text{
+        font-size: 20px;
+    }
+    .jk-footer
+    {
+        margin-left:12px;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .jk-in-top2-maintext{
+        font-size: 32px;
+    }
+    .jk-in-top2-animation{
+        font-size: 33px;
+    }
+    .jk-in-top2-text{
+        font-size: 17px;
+    }
+    .how-scalenut
+    {
+        font-size: 30px;
+    }
+    .dark-text
+    {
+        font-size:30px;
+    }
+    .jk-footer
+    {
+        margin-left:35px;
+    }
+}
+
+@media only screen and (max-width: 430px)
+{
+    .jk-in-top2-maintext{
+        font-size: 27px;
+    }
+    .jk-in-top2-animation{
+        font-size: 36px;
+        line-height: 60px;
+        height:60px;
+    }
+    .jk-in-top2-text{
+        font-size: 15px;
+    }
+    .dark-text
+    {
+        font-size:20px;
+    }
+    .jk-in-top2-button
+    {
+        width: 200px;
+        font-size: 15px;
+    }
+    .jk-footer
+    {
+        margin-left:12px;
+    }
+    .benefits-headline
+    {
+        font-size:19px;
+    }
+
+}
+
+@media only screen and (max-width: 350px)
+{
+    .jk-in-top2-maintext{
+        font-size: 23px;
+    }
+    .jk-in-top2-animation{
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+    }
+    .jk-in-top2-text{
+        font-size: 12px;
+    }
+    .jk-footer
+    {
+        margin-left:5px;
+        font-size:16px;
+    }
+    .benefits-headline
+    {
+        font-size:18px;
+    }
+}

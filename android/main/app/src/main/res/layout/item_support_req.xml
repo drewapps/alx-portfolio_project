@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_template"
+    android:layout_margin="@dimen/_4sdp"
+    android:elevation="@dimen/_2sdp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_title"
+        font='@{"extra_bold"}'
+        textSize='@{"font_body_size"}'
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:maxLines="2"
+        android:text="This is Test Title"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/iv_priority"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title"
+        app:layout_constraintStart_toStartOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title">
+
+        <TextView
+            font='@{"normal"}'
+            textSize='@{"font_body_xxs_size"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ticket Id:"
+            android:textColor="@color/grey_20" />
+
+        <TextView
+            android:id="@+id/tv_ticketID"
+            font='@{"bold"}'
+            textSize='@{"font_body_xxs_size"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:text="R0AWKGQBDO"
+            android:textColor="@color/grey_20" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title"
+        app:layout_constraintStart_toStartOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/tv_category"
+            font='@{"bold"}'
+            textSize='@{"font_body_xs_size"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Inquiry"
+            android:textColor="@color/colorSecondary" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            font='@{"normal"}'
+            textSize='@{"font_body_xxs_size"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="17 Mar 2023 11:38 AM"
+            android:textColor="@color/grey_40" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_status"
+        font='@{"extra_bold"}'
+        textSize='@{"font_body_s_size"}'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:text="Open"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_4sdp"
+        android:background="@drawable/bg_rounded_shape"
+        android:backgroundTint="@color/blue_500"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <ImageView
+        android:id="@+id/iv_priority"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:src="@drawable/bg_round_gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_title"
+        app:tint="@color/deep_orange_500" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

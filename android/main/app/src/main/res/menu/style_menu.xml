@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/st_3d"
+        android:icon="@drawable/st_3d"
+        android:title="3D Render" />
+    <item
+        android:id="@+id/st_abstract"
+        android:icon="@drawable/st_abstract"
+        android:title="Abstract" />
+    <item
+        android:id="@+id/st_anime"
+        android:icon="@drawable/st_anime"
+        android:title="Anime" />
+    <item
+        android:id="@+id/st_cartoon"
+        android:icon="@drawable/st_cartoon"
+        android:title="Cartoon" />
+    <item
+        android:id="@+id/st_digital_art"
+        android:icon="@drawable/st_digital_art"
+        android:title="Digital Art" />
+    <item
+        android:id="@+id/st_illustration"
+        android:icon="@drawable/st_illustration"
+        android:title="illustration" />
+    <item
+        android:id="@+id/st_origami"
+        android:icon="@drawable/st_origami"
+        android:title="Origami" />
+    <item
+        android:id="@+id/st_pixel_art"
+        android:icon="@drawable/st_pixel_art"
+        android:title="Pixel Art" />
+    <item
+        android:id="@+id/st_photography"
+        android:icon="@drawable/st_photography"
+        android:title="Photography" />
+    <item
+        android:id="@+id/st_pop_art"
+        android:icon="@drawable/st_pop_art"
+        android:title="Pop Art" />
+    <item
+        android:id="@+id/st_retro"
+        android:icon="@drawable/st_retro"
+        android:title="Retro" />
+    <item
+        android:id="@+id/st_sketch"
+        android:icon="@drawable/st_sketch"
+        android:title="Sketch" />
+    <item
+        android:id="@+id/st_vaporware"
+        android:icon="@drawable/st_vaporware"
+        android:title="Vaporware" />
+</menu>

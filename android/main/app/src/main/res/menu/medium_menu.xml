@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/md_acrylic"
+        android:icon="@drawable/md_acrylic"
+        android:title="Acrylic" />
+    <item
+        android:id="@+id/md_canvas"
+        android:icon="@drawable/md_canvas"
+        android:title="Canvas" />
+    <item
+        android:id="@+id/md_chalk"
+        android:icon="@drawable/md_chalk"
+        android:title="Chalk" />
+    <item
+        android:id="@+id/md_charcoal"
+        android:icon="@drawable/md_charcoal"
+        android:title="Charcoal" />
+    <item
+        android:id="@+id/md_crayon"
+        android:icon="@drawable/md_crayon"
+        android:title="Crayon" />
+    <item
+        android:id="@+id/md_glass"
+        android:icon="@drawable/md_glass"
+        android:title="Glass" />
+    <item
+        android:id="@+id/md_ink"
+        android:icon="@drawable/md_ink"
+        android:title="Ink" />
+    <item
+        android:id="@+id/md_pastel"
+        android:icon="@drawable/md_pastel"
+        android:title="Pastel" />
+    <item
+        android:id="@+id/md_pencil"
+        android:icon="@drawable/md_pencil"
+        android:title="Pencil" />
+    <item
+        android:id="@+id/md_spray_paint"
+        android:icon="@drawable/md_spray_paint"
+        android:title="Spray Paint" />
+    <item
+        android:id="@+id/md_watercolor"
+        android:icon="@drawable/md_watercolor"
+        android:title="Water Color" />
+
+</menu>

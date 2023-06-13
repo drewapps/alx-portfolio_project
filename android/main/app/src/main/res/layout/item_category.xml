@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:id="@+id/rl_category"
+    android:layout_width="wrap_content"
+    android:layout_margin="@dimen/_4sdp"
+    android:background="@drawable/bg_word_created"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_category"
+        font='@{"extra_bold"}'
+        textSize='@{"font_body_s_size"}'
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:paddingVertical="@dimen/_8sdp"
+        android:text="All"
+        android:textColor="@color/blue_700" />
+
+</RelativeLayout>
+</layout>

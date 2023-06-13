@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/adventure"
+        android:icon="@drawable/tone_advanture"
+        android:title="Adventure" />
+    <item android:id="@+id/bold"
+        android:icon="@drawable/tone_bold"
+        android:title="Bold" />
+    <item android:id="@+id/friendly"
+        android:icon="@drawable/tone_friendly"
+        android:title="Friendly" />
+    <item android:id="@+id/luxury"
+        android:icon="@drawable/tone_luxury"
+        android:title="Luxury" />
+    <item android:id="@+id/professional"
+        android:icon="@drawable/tone_proffesional"
+        android:title="Professional" />
+    <item android:id="@+id/persuasive"
+        android:icon="@drawable/tone_persuasive"
+        android:title="Persuasive" />
+    <item android:id="@+id/relaxed"
+        android:icon="@drawable/tone_relaxed"
+        android:title="Relaxed" />
+    <item android:id="@+id/witty"
+        android:icon="@drawable/tone_witty"
+        android:title="Witty" />
+</menu>

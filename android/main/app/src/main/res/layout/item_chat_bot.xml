@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/roundedImageView"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="@dimen/_100sdp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:minHeight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginEnd="@dimen/_40sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toEndOf="@+id/roundedImageView"
+        app:layout_constraintTop_toTopOf="@+id/roundedImageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_content"
+                font='@{"extra_bold"}'
+                textSize='@{"font_body_size"}'
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_8sdp"
+                android:paddingVertical="@dimen/_6sdp"
+                android:text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+                android:textColor="@color/black" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/success_animation"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                app:lottie_autoPlay="true"
+                android:visibility="gone"
+                app:lottie_fileName="typing.json"
+                app:lottie_loop="true" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_gravity="start"
+                android:maxHeight="@dimen/_250sdp"
+                app:riv_corner_radius="@dimen/_5sdp"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
+</layout>
